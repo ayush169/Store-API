@@ -1,0 +1,10 @@
+_id: ut_ad65db0a85634a5f9014b3d9390347d4
+type: UnitTest
+parentId: uts_09f195fbc30a47c78d56ebf564ccb99d
+modified: 1684658788750
+created: 1684658701280
+requestId: req_355782a898fe442188d5f5e1deb88b03
+name: Image1
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(500);

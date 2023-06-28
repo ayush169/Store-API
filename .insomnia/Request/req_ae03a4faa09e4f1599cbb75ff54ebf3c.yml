@@ -1,0 +1,32 @@
+_id: req_ae03a4faa09e4f1599cbb75ff54ebf3c
+type: Request
+parentId: fld_d46d13a5ec9640e5af657c298040083f
+modified: 1684732121620
+created: 1684568745016
+url: http://localhost:5000/api/auth/register
+name: "register user "
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "username": "ayush3",
+        "email": "ayush@gmail3.com",
+        "password": "password"
+    }
+parameters: []
+headers:
+  - id: pair_d69437f551d647a1af2670df5d8d2daa
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1684568745016
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

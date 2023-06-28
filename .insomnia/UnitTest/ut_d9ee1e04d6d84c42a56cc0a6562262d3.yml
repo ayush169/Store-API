@@ -1,0 +1,10 @@
+_id: ut_d9ee1e04d6d84c42a56cc0a6562262d3
+type: UnitTest
+parentId: uts_09f195fbc30a47c78d56ebf564ccb99d
+modified: 1684571114759
+created: 1684570990237
+requestId: req_92dd38a8e533499a99f5848125592ad2
+name: Login user validation1
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(401);

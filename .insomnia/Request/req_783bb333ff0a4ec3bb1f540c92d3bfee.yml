@@ -1,0 +1,35 @@
+_id: req_783bb333ff0a4ec3bb1f540c92d3bfee
+type: Request
+parentId: fld_d46d13a5ec9640e5af657c298040083f
+modified: 1684572201399
+created: 1684572156493
+url: "{{ _.URL }}/users/64687b875d4c94835020efa"
+name: Update user 2
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "username": "test1"
+    }
+parameters: []
+headers:
+  - id: pair_b649f1e5e18d4ec380d60c4333efca83
+    name: token
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Njg3Yjg3NWQ0Yzk0ODM1MDIwZWZhNyIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2ODQ1NzAzMTMsImV4cCI6MTY4NDgyOTUxM30.v3lNQ6cFl20RliOK93g3PuvXjxkgl9R75GmGUQOQjBE
+    description: ""
+  - id: pair_76b6b9891b094c91818ed43ab222a93d
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1684570405087
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

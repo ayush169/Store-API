@@ -1,0 +1,21 @@
+_id: req_af2c7bdc0b434d8aad281e9283ccb664
+type: Request
+parentId: fld_d46d13a5ec9640e5af657c298040083f
+modified: 1684658685307
+created: 1684594215928
+url: "{{ _.URL }}/products?category=tshirt"
+name: Get Images
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1684588691858
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

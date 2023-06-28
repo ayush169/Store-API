@@ -1,0 +1,28 @@
+_id: req_608220abbffa4c21a426068d02d59b56
+type: Request
+parentId: fld_d88a05f1e7ed4ca1a409e2cedab8a67d
+modified: 1682318381922
+created: 1682143849235
+url: "{{ _.URL }}/tasks"
+name: create task
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "   mi   "
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1682143849235
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

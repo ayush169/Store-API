@@ -1,0 +1,21 @@
+_id: req_3d916626228e44d38cccf2cfe260004a
+type: Request
+parentId: fld_70da49933e1848ff80007c338cc00ebc
+modified: 1687937417258
+created: 1687937274158
+url: "{{ _.url }}/products/static"
+name: Get all products - Testing
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1687937274158
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

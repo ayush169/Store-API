@@ -1,0 +1,32 @@
+_id: req_22aabc0c3b6f465c85d1eeda93ea8aac
+type: Request
+parentId: fld_d46d13a5ec9640e5af657c298040083f
+modified: 1684570664470
+created: 1684570445886
+url: http://localhost:5000/api/auth/register
+name: "register new user "
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "username": "ayushnew",
+        "email": "ayushnew@gmail.com",
+        "password": ""
+    }
+parameters: []
+headers:
+  - id: pair_d69437f551d647a1af2670df5d8d2daa
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1684568536447
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,10 @@
+_id: ut_b68be30bb430404dbdc0ebf8c013e628
+type: UnitTest
+parentId: uts_09f195fbc30a47c78d56ebf564ccb99d
+modified: 1684571519663
+created: 1684570894847
+requestId: req_ae03a4faa09e4f1599cbb75ff54ebf3c
+name: Registration validation4
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(500);

@@ -1,0 +1,32 @@
+_id: req_c16dd899a7db4cd69b9ee37cb9f47603
+type: Request
+parentId: fld_d46d13a5ec9640e5af657c298040083f
+modified: 1684585584071
+created: 1684585238091
+url: http://localhost:5000/api/auth/register
+name: register admin
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "username": "master",
+        "email": "master@gmail.com",
+        "password": "password"
+    }
+parameters: []
+headers:
+  - id: pair_d69437f551d647a1af2670df5d8d2daa
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1684568640731.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

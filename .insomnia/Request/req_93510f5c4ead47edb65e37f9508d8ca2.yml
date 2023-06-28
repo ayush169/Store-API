@@ -1,0 +1,26 @@
+_id: req_93510f5c4ead47edb65e37f9508d8ca2
+type: Request
+parentId: fld_d46d13a5ec9640e5af657c298040083f
+modified: 1684586804233
+created: 1684586168790
+url: "{{ _.URL }}/users"
+name: get users
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_32be86a507434e3880d7910b38447166
+    name: token
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NjhiYzcxOWRlYmJmMzAwMjY3MWJmOCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4NDU4NTkwNCwiZXhwIjoxNjg0ODQ1MTA0fQ.pg-1C8-17jDuB0KqVfClge0ZFfhBZOXtlMmcl8PPKHc
+    description: ""
+authentication: {}
+metaSortKey: -1684578250517.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

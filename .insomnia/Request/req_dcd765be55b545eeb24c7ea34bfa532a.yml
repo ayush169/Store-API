@@ -1,0 +1,46 @@
+_id: req_dcd765be55b545eeb24c7ea34bfa532a
+type: Request
+parentId: fld_d46d13a5ec9640e5af657c298040083f
+modified: 1684731103594
+created: 1684596356630
+url: "{{ _.URL }}/orders"
+name: Add Cart
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"userId": "64687b875d4c94835020efa7",
+    	"products": [
+    		{
+    			"productId": "21eer",
+    			"quantity": 2
+    		},
+    		{
+    			"productId": "2efer",
+    			"quantity": 1
+    		}
+    	],
+    	"amount": 50,
+    	"address": "Bangalore"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_80524542a78c4971bde70211e4ec43ad
+  - id: pair_8b3e1a5f513f4cc981dd6055239be16b
+    name: token
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Njg3Yjg3NWQ0Yzk0ODM1MDIwZWZhNyIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2ODQ1OTY2NTgsImV4cCI6MTY4NDg1NTg1OH0.0k8hH3CEqRV81fU3Cq-9fChQ8_axlEbMa18LgsIPRN8
+    description: ""
+authentication: {}
+metaSortKey: -1684596356630
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,14 @@
+_id: env_052e49a681a54eb0a1f24091cb4d51a6
+type: Environment
+parentId: env_0af90c3db092873eeec514734c23a838e1bdf854
+modified: 1687937482715
+created: 1687937289859
+name: Store-API
+data:
+  url: http://localhost:8000/api/v1
+dataPropertyOrder:
+  "&":
+    - url
+color: "#fd7e08"
+isPrivate: false
+metaSortKey: 1687937289859

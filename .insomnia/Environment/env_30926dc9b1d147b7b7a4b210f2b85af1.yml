@@ -1,0 +1,14 @@
+_id: env_30926dc9b1d147b7b7a4b210f2b85af1
+type: Environment
+parentId: env_0af90c3db092873eeec514734c23a838e1bdf854
+modified: 1684568574977
+created: 1682144034119
+name: Task Manager
+data:
+  URL: http://localhost:3000/api/v1
+dataPropertyOrder:
+  "&":
+    - URL
+color: "#a11bbb"
+isPrivate: false
+metaSortKey: 1682144034119

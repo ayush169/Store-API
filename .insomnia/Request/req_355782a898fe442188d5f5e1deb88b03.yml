@@ -1,0 +1,39 @@
+_id: req_355782a898fe442188d5f5e1deb88b03
+type: Request
+parentId: fld_d46d13a5ec9640e5af657c298040083f
+modified: 1684731127663
+created: 1684592553726
+url: "{{ _.URL }}/products"
+name: Add Image
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title": "img",
+    	"desc": "test",
+    	"img": "test",
+    	"size": "S",
+    	"color": "gray",
+    	"price": 30
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6a40648308b44016bea3dd8734aa2eca
+  - id: pair_ec3ac059d44d4a958d91d983c2149721
+    name: token
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NjhiYzcxOWRlYmJmMzAwMjY3MWJmOCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4NDU4NTkwNCwiZXhwIjoxNjg0ODQ1MTA0fQ.pg-1C8-17jDuB0KqVfClge0ZFfhBZOXtlMmcl8PPKHc
+    description: ""
+authentication: {}
+metaSortKey: -1684592553726
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

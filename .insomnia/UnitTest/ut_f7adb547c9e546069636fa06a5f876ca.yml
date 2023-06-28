@@ -1,0 +1,10 @@
+_id: ut_f7adb547c9e546069636fa06a5f876ca
+type: UnitTest
+parentId: uts_09f195fbc30a47c78d56ebf564ccb99d
+modified: 1684572313045
+created: 1684572299262
+requestId: req_783bb333ff0a4ec3bb1f540c92d3bfee
+name: Authentication jwt2
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(403);

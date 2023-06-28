@@ -1,0 +1,29 @@
+_id: req_a41549ab2f0643d8bb74db8a035ef04d
+type: Request
+parentId: fld_d88a05f1e7ed4ca1a409e2cedab8a67d
+modified: 1682322376546
+created: 1682143893990
+url: "{{ _.URL }}/tasks/6443e116281849b2e49a4bd5"
+name: update task
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "TypeScript",
+    	"completed": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1682143893990
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

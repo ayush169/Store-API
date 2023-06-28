@@ -1,0 +1,31 @@
+_id: req_91cde84555fe42caadc85ea7e06c9335
+type: Request
+parentId: fld_d46d13a5ec9640e5af657c298040083f
+modified: 1684569523004
+created: 1684569523004
+url: "{{ _.URL }}/auth/login"
+name: update user
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "username": "ayush",
+        "password": "password"
+    }
+parameters: []
+headers:
+  - id: pair_61a927385da240a289503150f8e73566
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1684568942072.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

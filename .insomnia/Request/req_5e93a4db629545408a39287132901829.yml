@@ -1,0 +1,30 @@
+_id: req_5e93a4db629545408a39287132901829
+type: Request
+parentId: fld_234ff88709cf4e6b8b955eb2ec7f1295
+modified: 1682754881267
+created: 1682264571958
+url: http://localhost:4000/
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"query {\n\tposts(query: \"13\")
+    {\n    id\n    title\n  \tauthor {\n      id\n      name\n    }\n  }\n}"}'
+parameters:
+  - id: pair_64b1f58711594c3fb353c432a84b4478
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1682264571958
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,10 @@
+_id: fld_234ff88709cf4e6b8b955eb2ec7f1295
+type: RequestGroup
+parentId: wrk_268bd56febb746f88b5a19cbe7d57878
+modified: 1682264570524
+created: 1682264570524
+name: Graphql1
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1682264570524

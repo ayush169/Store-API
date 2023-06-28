@@ -1,0 +1,46 @@
+_id: req_544d6464c9034718ab7de13e8fb53716
+type: Request
+parentId: fld_d46d13a5ec9640e5af657c298040083f
+modified: 1684596827846
+created: 1684596760495
+url: "{{ _.URL }}/orders/income"
+name: Income
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"userId": "64687b875d4c94835020efa7",
+    	"products": [
+    		{
+    			"productId": "21eer",
+    			"quantity": 2
+    		},
+    		{
+    			"productId": "2efer",
+    			"quantity": 1
+    		}
+    	],
+    	"amount": 50,
+    	"address": "USA"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_80524542a78c4971bde70211e4ec43ad
+  - id: pair_8b3e1a5f513f4cc981dd6055239be16b
+    name: token
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NjhiYzcxOWRlYmJmMzAwMjY3MWJmOCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4NDU4NTkwNCwiZXhwIjoxNjg0ODQ1MTA0fQ.pg-1C8-17jDuB0KqVfClge0ZFfhBZOXtlMmcl8PPKHc
+    description: ""
+authentication: {}
+metaSortKey: -1684594455178
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

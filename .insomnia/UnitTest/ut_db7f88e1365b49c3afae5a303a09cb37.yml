@@ -1,0 +1,10 @@
+_id: ut_db7f88e1365b49c3afae5a303a09cb37
+type: UnitTest
+parentId: uts_09f195fbc30a47c78d56ebf564ccb99d
+modified: 1684658817282
+created: 1684658810578
+requestId: req_dcd765be55b545eeb24c7ea34bfa532a
+name: cart
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);
